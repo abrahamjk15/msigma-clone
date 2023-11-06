@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:wght@300;600&display=swap");
+
+body {
+  text-align: center;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+}
+.heading {
+  width: 60%;
+  margin-left: 300px;
+}
+.heading h2 {
+  color: #1b75bb;
+}
+.list-row {
+  display: flex;
+  width: 70%;
+  /* border: 1px solid blue; */
+  margin-left: 220px;
+}
+.list-row-item {
+  flex: 1;
+  margin: 20px;
+  height: 12em;
+  width: 20em;
+  color: #555;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  /* padding-bottom: 2em; */
+  margin-left: 3em;
+  margin-bottom: 2em;
+}
+.item-button {
+  padding: 0.7em 2em;
+  width: fit-content;
+  background: rgba(27, 117, 187, 0.05);
+  border: 1px solid #1b75bb;
+  border-radius: 27px;
+  color: #1b75bb;
+  cursor: pointer;
+}
